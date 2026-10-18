@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px 50px;
+  color: #222;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  color: #0b559f;
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.header p {
+  color: #0b559f;
+  font-size: 15px;
+  margin: 0;
+}
+
+h2 {
+  color: #0b559f;
+  font-size: 22px;
+  margin: 25px 0 12px 0;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.skills-header {
+  background-color: #095396;
+  color: white;
+  padding: 4px 10px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+ul {
+  margin: 10px 0 25px 20px;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+li a {
+  color: #0000ee;
+}
+
+.table-caption {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+th,
+td {
+  border: 1px solid #777;
+  padding: 8px 10px;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #095396;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.logo-cell {
+  text-align: center;
+  width: 90px;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 12px;
+  color: white;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.bg-tc {
+  background-color: #0d82df;
+}
+.bg-da {
+  background-color: #bd1a65;
+}
+.bg-wd {
+  background-color: #27a858;
+}
+
+.table-list {
+  margin: 0;
+  padding-left: 15px;
+}
+
+.table-list li {
+  margin-bottom: 3px;
+}
+
+fieldset {
+  border: 1px solid #777;
+  padding: 15px 25px;
+  margin-top: 15px;
+}
+
+legend {
+  font-size: 14px;
+  padding: 0 5px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 140px 1fr 140px 1fr;
+  gap: 12px 15px;
+  align-items: center;
+}
+
+.form-grid label {
+  font-size: 14px;
+}
+
+.form-grid input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 4px;
+  border: 1px solid #777;
+}
+
+.buttons {
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 6px 14px;
+  color: white;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-send {
+  background-color: #0b559f;
+}
+
+.btn-clear {
+  background-color: #b71c1c;
+  margin-left: 8px;
+}
