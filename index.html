@@ -2,144 +2,67 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="header">
-      <h1>Your Name</h1>
-      <p>Front End Developer</p>
-    </div>
+    <nav id="home">
+      <header>
+        <h2>Creative <span>Academy</span></h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#Courses">Courses</a></li>
+          <li><a href="#About">About</a></li>
+        </ul>
+      </header>
+    </nav>
 
-    <h2>About Me</h2>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci aut
-      numquam sit dolores esse quasi quae perferendis, cum aliquid aspernatur
-      possimus in minima assumenda? Nulla sequi quos mollitia dolores quia!
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptas
-      accusantium enim laboriosam delectus iure, perspiciatis ea eveniet itaque
-      fugit consequatur et, expedita tenetur accusamus in fuga quidem
-      dignissimos. Magnam.
-    </p>
-
-    <div class="skills-header">Skills</div>
-    <ul>
-      <li><a href="#">html</a></li>
-      <li><a href="#">css</a></li>
-      <li><a href="#">javascript</a></li>
-      <li><a href="#">react.js</a></li>
-      <li><a href="#">angulr</a></li>
-    </ul>
-
-    <h2>Experience Timeline</h2>
-    <div class="table-caption">Professional Experience Overview</div>
-
-    <table>
-      <thead>
-        <tr>
-          <th>company</th>
-          <th>logo</th>
-          <th>role</th>
-          <th>key achievement</th>
-          <th>dates</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td rowspan="2">techcorp</td>
-          <td rowspan="2" class="logo-cell">
-            <div class="logo bg-tc">TC</div>
-          </td>
-          <td>senior full stack developer</td>
-          <td>
-            <ul class="table-list">
-              <li>lead developmentof web application</li>
-              <li>mentor junior developers</li>
-              <li>architect scalable solutions</li>
-            </ul>
-          </td>
-          <td>jan 2023-present</td>
-        </tr>
-        <tr>
-          <td>full stack developer</td>
-          <td>
-            <ul class="table-list">
-              <li>lead developmentof web application</li>
-              <li>mentor junior developers</li>
-              <li>architect scalable solutions</li>
-            </ul>
-          </td>
-          <td>2021-2023</td>
-        </tr>
-        <tr>
-          <td>digital anency pro</td>
-          <td class="logo-cell">
-            <div class="logo bg-da">DA</div>
-          </td>
-          <td>frontend developer</td>
-          <td>
-            <ul class="table-list">
-              <li>lead developmentof web application</li>
-              <li>mentor junior developers</li>
-              <li>architect scalable solutions</li>
-            </ul>
-          </td>
-          <td>2019 - 2020</td>
-        </tr>
-        <tr>
-          <td>web design studio</td>
-          <td class="logo-cell">
-            <div class="logo bg-wd">WD</div>
-          </td>
-          <td>junior web developer</td>
-          <td>
-            <ul class="table-list">
-              <li>lead developmentof web application</li>
-              <li>mentor junior developers</li>
-              <li>architect scalable solutions</li>
-            </ul>
-          </td>
-          <td>2019 - 2020</td>
-        </tr>
-        <tr>
-          <td colspan="5">total Experience 5+ years in web developer</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h2>Contact Me</h2>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit at
-      repudiandae esse libero magnam quod ab? Molestias fuga animi qui!
-    </p>
-
-    <form>
-      <fieldset>
-        <legend>personal information</legend>
-        <div class="form-grid">
-          <label>first name</label>
-          <input type="text" />
-          <label>last name</label>
-          <input type="text" />
-
-          <label>Email Address:</label>
-          <input type="text" />
-          <label>phone number</label>
-          <input type="text" />
-
-          <label>preferred meeting date:</label>
-          <input type="text" />
-          <label>best time to Contact</label>
-          <input type="text" />
-        </div>
-      </fieldset>
-
-      <div class="buttons">
-        <button type="submit" class="btn btn-send">send massage</button>
-        <button type="reset" class="btn btn-clear">clear data</button>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Learn Today,<br />Build <span>Tomorrow</span></h1>
+        <p>
+          Join our academy and gain the skills you need to create your dream
+          <br />
+          career in technology.
+        </p>
+        <a href="#courses" class="btn">Get Started</a>
       </div>
-    </form>
+    </section>
+    <!-- hero -->
+
+    <section class="Courses" id="Courses">
+      <div class="Courses_container">
+        <h2>Our Popular Courses</h2>
+        <p>Explore our top courses and start your learning journey.</p>
+        <div class="cards_container">
+          <div class="card card1">
+            <h1>Web Development</h1>
+            <span class="badge">NEW</span>
+            <p>Learn HTML, CSS and JavaScript to build amazing websites.</p>
+            <a href="#home">Learn More →</a>
+          </div>
+          <div class="card card2">
+            <h1>Web Development</h1>
+            <span class="badge">NEW</span>
+            <p>Learn HTML, CSS and JavaScript to build amazing websites.</p>
+            <a href="#home">Learn More →</a>
+          </div>
+          <div class="card card3">
+            <h1>Web Development</h1>
+            <span class="badge">NEW</span>
+            <p>Learn HTML, CSS and JavaScript to build amazing websites.</p>
+            <a href="#home">Learn More →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer_containt">
+        <h1>Creative <span>Academy</span></h1>
+        <p>Learn new skills. Build your future.</p>
+      </div>
+    </section>
+    <script src="main.js"></script>
   </body>
 </html>
